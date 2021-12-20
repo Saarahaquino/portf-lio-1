@@ -1,0 +1,710 @@
+* {
+  margin: 0;
+}
+
+html {
+  background-color: #22212c;
+}
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+}
+.aquino {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  left: 115px;
+  top: 47px;
+  border: 2px solid #00ff00;
+  box-sizing: border-box;
+  border-radius: 70%;
+}
+
+.iti {
+  position: absolute;
+  width: 348px;
+  height: 292px;
+  left: 20px;
+  top: 40px;
+  border-radius: 20px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.aprendiz {
+  position: absolute;
+  width: 235px;
+  height: 17px;
+  left: 158px;
+  top: 266px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #837e9f;
+}
+.sarah {
+  position: absolute;
+  height: 27px;
+  left: 139px;
+  top: 230px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 29px;
+  color: #837e9f;
+}
+.link {
+  position: absolute;
+  width: 348px;
+  height: 348px;
+  left: 20px;
+  top: 362px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.brasil {
+  position: absolute;
+  width: 35px;
+  height: 16px;
+  left: 75px;
+  top: 40px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #837e9f;
+  text-decoration: none;
+}
+#mapa {
+  position: absolute;
+  width: 35px;
+  height: 16px;
+  left: 37px;
+  top: 40px;
+}
+.rocketseat {
+  position: absolute;
+  width: 35px;
+  height: 16px;
+  left: 75px;
+  top: 85px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #837e9f;
+  text-decoration: none;
+}
+#briefcase {
+  position: absolute;
+  width: 35px;
+  height: 16px;
+  left: 37px;
+  top: 85px;
+}
+.github {
+  position: absolute;
+  width: 35px;
+  height: 16px;
+  left: 75px;
+  top: 134px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #837e9f;
+  text-decoration: none;
+}
+#github {
+  position: absolute;
+  width: 35px;
+  height: 16px;
+  left: 37px;
+  top: 134px;
+}
+.sarah-aquino {
+  position: absolute;
+  width: 35px;
+  height: 16px;
+  left: 75px;
+  top: 177px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #837e9f;
+  text-decoration: none;
+}
+#linkedin {
+  position: absolute;
+  width: 35px;
+  height: 16px;
+  left: 37px;
+  top: 177px;
+}
+.aquinoo {
+  position: absolute;
+  width: 35px;
+  height: 16px;
+  left: 75px;
+  top: 231px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #837e9f;
+  text-decoration: none;
+}
+#twitter {
+  position: absolute;
+  width: 35px;
+  height: 16px;
+  left: 37px;
+  top: 231px;
+}
+.dev {
+  position: absolute;
+  width: 35px;
+  height: 20px;
+  left: 75px;
+  top: 278px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #837e9f;
+  text-decoration: none;
+}
+#globe {
+  position: absolute;
+  width: 35px;
+  height: 19px;
+  left: 37px;
+  top: 278px;
+}
+.email {
+  position: absolute;
+  width: 99px;
+  height: 16px;
+  left: 75px;
+  top: 308px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #837e9f;
+  text-decoration: none;
+}
+#mail {
+  position: absolute;
+  width: 20px;
+  height: 19px;
+  left: 45px;
+  top: 308px;
+}
+h3 {
+  position: absolute;
+  width: 121px;
+  height: 26px;
+  left: 60px;
+  top: 22px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #837e9f;
+}
+.a {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 10px;
+  top: 8px;
+  background: #cb92b1;
+  border-radius: 30px;
+  text-align: center;
+  color: black;
+}
+.javascri {
+  left: 30px;
+  top: 76px;
+}
+.git {
+  left: 30px;
+  top: 120px;
+}
+.css {
+  left: 30px;
+  top: 169px;
+}
+.js {
+  left: 134px;
+  top: 75px;
+}
+.hubgit {
+  left: 134px;
+  top: 120px;
+}
+.elixir {
+  left: 134px;
+  top: 169px;
+}
+.node {
+  left: 235px;
+  top: 75px;
+}
+.html {
+  left: 235px;
+  top: 120px;
+}
+.react {
+  left: 234px;
+  top: 169px;
+}
+.info {
+  position: absolute;
+  width: 348px;
+  height: 208px;
+  left: 20px;
+  top: 768px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.lista {
+  position: absolute;
+  width: 348px;
+  height: 349px;
+  left: 20px;
+  top: 1028px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.b {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 10px;
+  top: 8px;
+  border-radius: 30px;
+  text-align: center;
+  color: #837e9f;
+}
+.lis {
+  left: 70px;
+  top: 54px;
+}
+.atual {
+  left: 70px;
+  top: 156px;
+}
+.rock {
+  left: 70px;
+  top: 256px;
+}
+.experi {
+  position: absolute;
+  width: 121px;
+  height: 26px;
+  left: 48px;
+  top: 18px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #837e9f;
+}
+.segunda {
+  position: absolute;
+  width: 348px;
+  height: 352px;
+  left: 20px;
+  top: 1425px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.Edu {
+  position: absolute;
+  width: 121px;
+  height: 26px;
+  left: 48px;
+  top: 18px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #837e9f;
+}
+.c {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 10px;
+  top: 8px;
+  border-radius: 30px;
+  text-align: center;
+  color: #837e9f;
+}
+.gos {
+  left: 70px;
+  top: 64px;
+}
+.stack {
+  left: 70px;
+  top: 158px;
+}
+.star {
+  left: 70px;
+  top: 265px;
+}
+.projec {
+  position: absolute;
+  width: 952px;
+  height: 70px;
+  left: 390px;
+  top: 40px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.e {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 10px;
+  top: 8px;
+  border-radius: 30px;
+  text-align: center;
+  color: #837e9f;
+}
+.my {
+  left: 17px;
+  top: 23px;
+  color: #837e9f;
+}
+.veja {
+  left: 855px;
+  top: 23px;
+  color: #837e9f;
+}
+.folde {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 478px;
+  top: 187px;
+  color: #837e9f;
+}
+.onix {
+  position: absolute;
+  width: 502px;
+  height: 179px;
+  left: 410px;
+  top: 157px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.f {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 10px;
+  top: 8px;
+  border-radius: 30px;
+  text-align: center;
+  color: #837e9f;
+}
+.os {
+  position: absolute;
+  width: 421px;
+  height: 19px;
+  left: 11px;
+  top: 77px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #837e9f;
+}
+.ym {
+  position: absolute;
+  width: 79px;
+  height: 17px;
+  left: 50px;
+  top: 22px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #837e9f;
+}
+.folder {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 30px;
+  top: 22px;
+}
+.zero {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 54px;
+  top: 138px;
+}
+.str {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 27px;
+  top: 135px;
+}
+.branch {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 93px;
+  top: 136px;
+}
+.ind {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 125px;
+  top: 137px;
+}
+.bll {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 344px;
+  top: 135px;
+}
+.tll {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 370px;
+  top: 135px;
+}
+#nix {
+  position: absolute;
+  width: 402px;
+  height: 181px;
+  left: 937px;
+  top: 157px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.g {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 10px;
+  top: 8px;
+  border-radius: 30px;
+  text-align: center;
+  color: #837e9f;
+}
+.fold {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 30px;
+  top: 22px;
+}
+.nig {
+  position: absolute;
+  width: 79px;
+  height: 17px;
+  left: 50px;
+  top: 22px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #837e9f;
+}
+.erro {
+  position: absolute;
+  width: 421px;
+  height: 19px;
+  left: -3px;
+  top: 77px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: #837e9f;
+}
+.std {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 27px;
+  top: 135px;
+}
+.bola {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 277px;
+  top: 135px;
+}
+.bol {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 305px;
+  top: 135px;
+}
+
+.ero {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 54px;
+  top: 138px;
+}
+
+.ftg {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 93px;
+  top: 136px;
+}
+.sde {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 125px;
+  top: 137px;
+}
+.rece {
+  position: absolute;
+  width: 941px;
+  height: 86px;
+  left: 404px;
+  top: 373px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.post {
+  position: absolute;
+  width: 140px;
+  height: 26px;
+  left: 47px;
+  top: 32px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #837e9f;
+}
+.posta {
+  position: absolute;
+  width: 932px;
+  height: 201px;
+  left: 413px;
+  top: 506px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.aquin {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  left: 24px;
+  top: 40px;
+  border: 2px solid #00ff00;
+  box-sizing: border-box;
+  border-radius: 70%;
+}
+
+.not {
+  position: absolute;
+  width: 612px;
+  height: 31px;
+  left: 149px;
+  top: 41px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #837e9f;
+}
+
+.ano{
+  left:149px ;
+  top: 145px ;
+}
+.tal{
+  position: absolute;
+  width: 612px;
+  height: 31px;
+  left: 149px;
+  top: 116px;
+  font-family: Merriweather Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  color: #837e9f;
+}
+.i{
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 149px;
+  top: 77px;
+  border-radius: 30px;
+  text-align: center;
+  color: #837e9f;
+}
+.tive{
+  left:149px ;
+  top: 145px ;
+}
+.tion{
+  left:248px ;
+  top: 145px;
+}
+.agen{
+  left: 346px;
+  top: 145px;
+}
+.nimo{
+  left: 443px;
+  top: 145px;
+}
